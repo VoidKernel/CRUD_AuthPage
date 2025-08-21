@@ -1,1 +1,15 @@
-*.env
+# PHP / Backend
+/vendor/                # Composer dependencies
+/.env                   # DB credentials, secrets
+*.log                   # Logs
+*.cache                 # Cache files
+
+# OS / System files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
